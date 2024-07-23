@@ -5,6 +5,7 @@ function App() {
   function addCounter() {
     if (value >= 0) {
       setValue((prev) => prev + 1);
+      
     } else {
       alert("Somthing Want Wrong!");
       setValue(1);
