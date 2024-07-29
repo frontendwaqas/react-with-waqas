@@ -1,7 +1,13 @@
+import Footer from "./Components/Footer/Footer";
+// import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
+
 function App() {
   return (
     <>
-      <h1 className="text-red-500">React Router Dom</h1>
+      {/* <Header /> */}
+      <Home />
+      <Footer />
     </>
   );
 }
